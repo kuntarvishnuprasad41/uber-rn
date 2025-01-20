@@ -6,6 +6,7 @@ export default function HomeScreen() {
   useEffect(() => {
     StatusBar.setBarStyle("dark-content");
   }, []);
+
   return (
     <SafeAreaView className="flex-1 justify-center items-center bg-white">
       <View className="">
