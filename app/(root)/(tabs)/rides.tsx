@@ -1,12 +1,12 @@
 import { Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-const History = () => {
+const Rides = () => {
   return (
     <SafeAreaView className="flex-1 items-center justify-center">
-      <Text>History</Text>
+      <Text>Rides</Text>
     </SafeAreaView>
   );
 };
 
-export default History;
+export default Rides;
