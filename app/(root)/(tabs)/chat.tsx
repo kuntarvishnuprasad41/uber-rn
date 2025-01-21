@@ -1,12 +1,12 @@
 import { Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-const Home = () => {
+const Chat = () => {
   return (
     <SafeAreaView className="flex-1 items-center justify-center">
-      <Text>Home</Text>
+      <Text>Chat</Text>
     </SafeAreaView>
   );
 };
 
-export default Home;
+export default Chat;
